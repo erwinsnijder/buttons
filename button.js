@@ -15,6 +15,16 @@ test.onclick = function() {
     document.getElementById('output').innerHTML += "+"
 
 }
+var test = document.getElementById('-');
+test.onclick = function() {
+    document.getElementById('output').innerHTML += "-"
+
+}
+var test = document.getElementById('ce');
+test.onclick = function() {
+    document.getElementById('output').innerHTML = " "
+
+}
 var test = document.getElementById('=');
 test.onclick = function() {
    var x = eval(document.getElementById('output').innerHTML);

@@ -10,3 +10,8 @@ var test = document.getElementById('3');
 test.onclick = function() {
     console.log('3');
 }
+var test = document.getElementById('+');
+test.onclick = function() {
+    document.getElementById('output')
+
+}

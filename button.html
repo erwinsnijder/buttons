@@ -2,27 +2,57 @@
 
 <html lang="en">
     <head>
+        <style>
+            .grid-container {
+              display: inline-grid;
+              grid-template-columns: auto auto auto;
+              background-color: grey;
+              padding: 10px;
+            }
+            
+            .grid-item {
+              background-color: rgba(255, 255, 255, 0.8);
+              border: 1px solid rgba(0, 0, 0, 0.8);
+              padding: 20px;
+              font-size: 30px;
+              text-align: center;
+            }
+            </style>
     </head>
 
     <body>
         
             <div id="output"></div>  
             <br>  
-            
-        <button id=1>1</button>
-        </div>
-        <button id=2>2</button>
-        </div>
-        <button id=3>3</button>
-        </div> 
-        <button id=+>+</button>
-        </div> 
-        <button id=->-</button>
-        </div>
-        <button id='='>=</button>
-        </div> 
-        <button id='ce'>ce</button>
-        </div> 
+        <div class="grid-container">    
+        <button class="grid-item" id=1>1</button>
+        
+        <button class="grid-item" id=2>2</button>
+        
+        <button class="grid-item" id=3>3</button>
+        
+        <button class="grid-item" id=4>4</button>
+        
+        <button class="grid-item" id=5>5</button>
+        
+        <button class="grid-item" id=6>6</button>
+         
+        <button class="grid-item" id=7>7</button>
+         
+        <button class="grid-item" id=8>8</button>
+         
+        <button class="grid-item" id=9>9</button>
+         
+        <button class="grid-item" id=0>0</button>
+         
+        <button class="grid-item" id=+>+</button>
+        
+        <button class="grid-item" id=->-</button>
+        
+        <button class="grid-item" id='='>=</button>
+        
+        <button class="grid-item" id='ce'>ce</button>
+        
         <script src="button.js"></script>
       </body>
 </html>
